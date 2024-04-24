@@ -1,0 +1,402 @@
+@font-face{
+    font-family: "IBMPlexSans-SemiBold";
+    src: url("../font/IBMPlexSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "IBMPlexSans-Light";
+    src: url("../font/IBMPlexSans-Light.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "IBMPlexSans-Regular";
+  src: url("../font/IBMPlexSans-Regular.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "IBMPlexSans-LightItalic";
+  src: url("../font/IBMPlexSans-LightItalic.ttf") format("truetype");
+}
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Custom CSS styles for the navbar */
+.navbar {
+    background-color: #0E101A; /* Colore di sfondo della navbar */
+  }
+
+  .logo{
+    margin-left: 70px;
+  }
+  
+  .navbar-nav {
+    margin-left: 830px; /* Sposta i link a destra nella navbar */
+  }
+  
+  .navbar-nav .nav-link {
+    font-family: "IBMPlexSans-Light";
+    color: #ffffff; /* Colore del testo dei link */
+    font-size: 16px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff; /* Cambia il colore del testo al passaggio del mouse */
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 100px; /* Aggiunge spazio tra gli elementi del menu */
+  }
+
+  
+.primapagina{
+    background-color:  #4950AB;
+}
+
+.titolo h1 {
+    margin-top: 170px;
+    font-size: 100px;
+    margin-left: 70px;
+    font-family: "IBMPlexSans-SemiBold";
+    color: white;
+  }
+
+.enlarged-image{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.descrizione_1{
+  background-color: #4950AB;
+}
+
+.paragrafo_1{
+  margin-top: 150px;
+  color: white;
+  font-family: "IBMPlexSans-Light";
+  font-size: 16px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+}
+
+.sottotitolo_1 h2{
+  margin-top: 150px;
+  color: white;
+  font-family: "IBMPlexSans-Regular";
+  font-size: 32px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-family: "IBMPlexSans-SemiBold";
+  color: #0E101A;
+  font-size: 21px;
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+
+
+
+/* Galleria homepage */
+
+.image-gallery {
+  overflow-x: auto; /* Abilita lo scorrimento orizzontale */
+  white-space: nowrap; /* Evita il wrap degli elementi. Gli elementi rimangono sulla stessa linea orizzontale */
+}
+
+.scrolling-container {
+  display: inline-block; /* Mostra gli elementi in linea */
+}
+
+.Monalisa_home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.scroll_monalisa {
+  width: 190px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.home_titolo-didascalia {
+  font-size: 18px; /* Imposta la dimensione del carattere */
+  margin-top: 15px; /* Aggiungi un margine superiore per separare il testo dall'immagine */
+  font-family: "IBMPlexSans-SemiBold";
+  color: #0E101A;
+}
+
+.autore{
+  font-family: "IBMPlexSans-Regular";
+  font-size: 16px;
+  color: #0E101A;
+  margin-top: -15px;
+}
+
+.desc{
+  font-family: "IBMPlexSans-LightItalic";
+  font-size: 16px;
+  color: #0E101A;
+  margin-top: -15px;
+}
+
+.Olympia-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_olympia {
+  width: 450px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Venere-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_venere {
+  width: 550px; /* Imposta la larghezza dell'immagine più grande */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Rolin-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_rolin {
+  width: 300px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Cavaliere-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_cavaliere {
+  width: 200px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Cézanne-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_cézanne {
+  width: 300px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Angelus-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_angelus {
+  width: 330px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Guernica-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.scroll_guernica {
+  width: 830px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Docteur-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_docteur {
+  width: 200px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+.Trittico-home {
+  display: inline-block; /* Mostra l'immagine e il testo in linea */
+  margin-right: 50px;
+}
+
+.scroll_trittico {
+  width: 700px; /* Imposta la larghezza dell'immagine più piccola */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+/* Footer*/
+
+.footer {
+  background-color: #0E101A;
+  padding: 50px 0; /* Aggiunge spazio intorno al contenuto */
+  text-align: center; /* Centra il contenuto orizzontalmente */
+}
+
+.visual {
+  width: 150px;
+  height: auto;
+}
+
+.ginevra {
+  width: 150px;
+  height: auto;
+  margin-right: 40px;
+  margin-left: -290px;
+}
+
+.Progetto_footer {
+  font-family: "IBMPlexSans-Light";
+  color: white;
+  font-size: 12px;
+  margin-left: 300px;
+}
+
+.footer_unirsm {
+  width: 150px; /* Imposta la larghezza del logo */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+  margin-bottom: 20px; /* Spazio inferiore tra il logo e il testo */
+  margin-left: 400px;
+}
+
+
+
+/* OPERE */
+
+.colonna_immagine{
+  margin-top: 150px;
+  margin-left: 0px; /* se inserisco margin-left potrebbe portarmi il contenuto della seconda colonna sotto*/
+  margin-bottom: 100px;
+}
+
+.dipinto_monalisa{
+  max-width: 50%;
+  height: auto;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.paragrafo_opera{
+  margin-top: 150px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+
+.artista{
+  font-family: "IBMPlexSans-Regular";
+  color: #0E101A;
+  font-size: 18px;
+}
+
+.didascalia{
+  font-family: "IBMPlexSans-Light";
+  color: #0E101A;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.testo_opera{
+  font-family: "IBMPlexSans-Light";
+  color: #0E101A;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.dipinto_olympia{
+  max-width: 85%;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.dipinto_venere{
+  max-width: 90%;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.dipinto_rolin{
+  max-width: 65%;
+  height: auto;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.dipinto_chevalier{
+  max-width: 50%;
+  height: auto;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.dipinto_cézanne{
+  max-width: 80%;
+  height: auto;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.dipinto_angelus{
+  max-width: 75%;
+  height: auto;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.dipinto_guernica{
+  max-width: 95%;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+.dipinto_docteur{
+  max-width: 55%;
+  height: auto;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.dipinto_trittico{
+  max-width: 95%;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+h4{
+  font-family: "IBMPlexSans-SemiBold";
+  font-size: 18px;
+}
+
+/* Timeline riviste*/
+
+#sticky-element {
+  position: -webkit-sticky; /* Per la compatibilità con alcuni browser */
+  position: sticky;
+  top: 50px;
+}
+
+
+
+
+.timeline_monalisa{
+  max-width: 100%;
+}
+
+.riviste{
+  max-width: 100%;
+}
