@@ -102,7 +102,6 @@ h3{
 
 
 
-
 /* Galleria homepage */
 
 .image-gallery {
@@ -254,7 +253,7 @@ h3{
   width: 150px;
   height: auto;
   margin-right: 40px;
-  margin-left: -290px;
+  margin-left: -200px;
 }
 
 .Progetto_footer {
@@ -276,7 +275,7 @@ h3{
 /* OPERE */
 
 .colonna_immagine{
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: 0px; /* se inserisco margin-left potrebbe portarmi il contenuto della seconda colonna sotto*/
   margin-bottom: 100px;
 }
@@ -289,7 +288,7 @@ h3{
 }
 
 .paragrafo_opera{
-  margin-top: 150px;
+  margin-top: 100px;
   padding-right: 200px;
   margin-bottom: 100px;
 }
@@ -387,7 +386,7 @@ h4{
 #sticky-element {
   position: -webkit-sticky; /* Per la compatibilità con alcuni browser */
   position: sticky;
-  top: 50px;
+  top: 0px;
 }
 
 
@@ -400,3 +399,5 @@ h4{
 .riviste{
   max-width: 100%;
 }
+
+
