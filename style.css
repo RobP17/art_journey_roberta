@@ -161,7 +161,7 @@ h3{
 }
 
 .scroll_venere {
-  width: 550px; /* Imposta la larghezza dell'immagine più grande */
+  width: 530px; /* Imposta la larghezza dell'immagine più grande */
   height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
 }
 
@@ -185,13 +185,13 @@ h3{
   height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
 }
 
-.Cézanne-home {
+.Delacroix-home {
   display: inline-block; /* Mostra l'immagine e il testo in linea */
   margin-right: 50px;
 }
 
-.scroll_cézanne {
-  width: 300px; /* Imposta la larghezza dell'immagine più piccola */
+.scroll_delacroix {
+  width: 450px; /* Imposta la larghezza dell'immagine più piccola */
   height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
 }
 
@@ -212,7 +212,7 @@ h3{
 }
 
 .scroll_guernica {
-  width: 830px; /* Imposta la larghezza dell'immagine più piccola */
+  width: 880px; /* Imposta la larghezza dell'immagine più piccola */
   height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
 }
 
@@ -342,7 +342,7 @@ h3{
 }
 
 .dipinto_cézanne{
-  max-width: 80%;
+  max-width: 85%;
   height: auto;
   margin-left: 70px;
   margin-top: 50px;
