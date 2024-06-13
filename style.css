@@ -386,7 +386,7 @@ h4{
 #sticky-element {
   position: -webkit-sticky; /* Per la compatibilità con alcuni browser */
   position: sticky;
-  top: -10px;
+  top: 0px;
 }
 
 
