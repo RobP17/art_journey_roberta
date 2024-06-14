@@ -245,12 +245,12 @@ h3{
 }
 
 .visual {
-  width: 150px;
+  width: 140px;
   height: auto;
 }
 
 .ginevra {
-  width: 150px;
+  width: 140px;
   height: auto;
   margin-right: 40px;
   margin-left: -200px;
@@ -264,7 +264,7 @@ h3{
 }
 
 .footer_unirsm {
-  width: 150px; /* Imposta la larghezza del logo */
+  width: 140px; /* Imposta la larghezza del logo */
   height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
   margin-bottom: 20px; /* Spazio inferiore tra il logo e il testo */
   margin-left: 400px;
