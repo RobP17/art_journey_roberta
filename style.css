@@ -124,7 +124,8 @@ body{
   }
   
   .navbar-nav .nav-link {
-    font-family: "IBMPlexSans-Light";
+    /* font-family: "IBMPlexSans-Light"; */
+    font-weight: 300;
     color: #ffffff; /* Colore del testo dei link */
     font-size: 16px;
   }
@@ -147,7 +148,9 @@ body{
     font-size: 100px;
     margin-left: 70px;
 /*     font-family: "IBMPlexSans-SemiBold";
- */    color: white;
+ */    
+ font-weight: 600;
+ color: white;
   }
 
 .enlarged-image{
@@ -178,7 +181,9 @@ body{
   margin-top: 130px;
   color: white;
 /*   font-family: "IBMPlexSans-Regular";
- */  font-size: 32px;
+ */  
+ font-weight: 400;
+ font-size: 32px;
   margin-left: 70px;
   margin-bottom: 20px;
 }
@@ -186,6 +191,7 @@ body{
 h3{
 /*   font-family: "IBMPlexSans-SemiBold";
  */  color: #0E101A;
+ font-weight: 600;
   font-size: 21px;
   margin-top: 100px;
   margin-left: 70px;
@@ -220,19 +226,24 @@ h3{
   font-size: 18px; /* Imposta la dimensione del carattere */
   margin-top: 15px; /* Aggiungi un margine superiore per separare il testo dall'immagine */
 /*   font-family: "IBMPlexSans-SemiBold";
- */  color: #0E101A;
+ */  
+ font-weight: 600;
+ color: #0E101A;
 }
 
 .autore{
 /*   font-family: "IBMPlexSans-Regular";
  */  font-size: 16px;
+ font-weight: 400;
   color: #0E101A;
   margin-top: -15px;
 }
 
 .desc{
 /*   font-family: "IBMPlexSans-LightItalic";
- */  font-size: 16px;
+ */  
+ font-weight: 300;
+ font-size: 16px;
   color: #0E101A;
   margin-top: -15px;
 }
@@ -349,8 +360,10 @@ h3{
 }
 
 .Progetto_footer {
-  font-family: "IBMPlexSans-Light";
-  color: white;
+/*   font-family: "IBMPlexSans-Light";
+ */  
+ font-weight: 300;
+ color: white;
   font-size: 12px;
   margin-left: 300px;
 }
@@ -386,21 +399,27 @@ h3{
 }
 
 .artista{
-  font-family: "IBMPlexSans-Regular";
-  color: #0E101A;
+/*   font-family: "IBMPlexSans-Regular";
+ */  
+ font-weight: 400;
+ color: #0E101A;
   font-size: 18px;
 }
 
 .didascalia{
-  font-family: "IBMPlexSans-Light";
-  color: #0E101A;
+/*   font-family: "/* IBMPlexSans-Light";/*
+ */  
+ font-weight: 300;
+ color: #0E101A;
   font-size: 16px;
   padding-top: 20px;
 }
 
 .testo_opera{
-  font-family: "IBMPlexSans-Light";
-  color: #0E101A;
+/*   font-family: "IBMPlexSans-Light";
+ */  
+ font-weight: 300;
+ color: #0E101A;
   font-size: 18px;
   padding-top: 20px;
 }
@@ -469,8 +488,10 @@ h3{
 }
 
 h4{
-  font-family: "IBMPlexSans-SemiBold";
-  font-size: 18px;
+/*   font-family: "IBMPlexSans-SemiBold";
+ */  
+ font-weight: 600;
+ font-size: 18px;
 }
 
 /* Timeline riviste*/
