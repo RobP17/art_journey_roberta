@@ -146,8 +146,8 @@ body{
     margin-top: 170px;
     font-size: 100px;
     margin-left: 70px;
-    font-family: "IBMPlexSans-SemiBold";
-    color: white;
+/*     font-family: "IBMPlexSans-SemiBold";
+ */    color: white;
   }
 
 .enlarged-image{
@@ -168,8 +168,8 @@ body{
 .paragrafo_1{
   margin-top: 150px;
   color: white;
-  font-family: "IBMPlexSans-Light";
-  font-size: 16px;
+/*   font-family: "IBMPlexSans-Light";
+ */  font-size: 16px;
   padding-right: 100px;
   margin-bottom: 100px;
 }
@@ -177,15 +177,15 @@ body{
 .sottotitolo_1 h2{
   margin-top: 130px;
   color: white;
-  font-family: "IBMPlexSans-Regular";
-  font-size: 32px;
+/*   font-family: "IBMPlexSans-Regular";
+ */  font-size: 32px;
   margin-left: 70px;
   margin-bottom: 20px;
 }
 
 h3{
-  font-family: "IBMPlexSans-SemiBold";
-  color: #0E101A;
+/*   font-family: "IBMPlexSans-SemiBold";
+ */  color: #0E101A;
   font-size: 21px;
   margin-top: 100px;
   margin-left: 70px;
@@ -219,20 +219,20 @@ h3{
 .home_titolo-didascalia {
   font-size: 18px; /* Imposta la dimensione del carattere */
   margin-top: 15px; /* Aggiungi un margine superiore per separare il testo dall'immagine */
-  font-family: "IBMPlexSans-SemiBold";
-  color: #0E101A;
+/*   font-family: "IBMPlexSans-SemiBold";
+ */  color: #0E101A;
 }
 
 .autore{
-  font-family: "IBMPlexSans-Regular";
-  font-size: 16px;
+/*   font-family: "IBMPlexSans-Regular";
+ */  font-size: 16px;
   color: #0E101A;
   margin-top: -15px;
 }
 
 .desc{
-  font-family: "IBMPlexSans-LightItalic";
-  font-size: 16px;
+/*   font-family: "IBMPlexSans-LightItalic";
+ */  font-size: 16px;
   color: #0E101A;
   margin-top: -15px;
 }
