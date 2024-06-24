@@ -412,3 +412,11 @@ h4{
 .descrizione_home a:hover {
   color:aqua; 
 }
+
+.descrizione_1 a{
+  color: white;
+}
+
+.descrizione_1 a:hover{
+  color:aqua; 
+}
